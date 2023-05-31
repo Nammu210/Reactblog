@@ -1,12 +1,31 @@
- footer {
-    background-color:black;
-    padding: 20px 0;
-    text-align: center;
-    color:aliceblue;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
+footer {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact, .references {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.contact h3, .references h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.references ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.references li {
+  margin-bottom: 5px;
+}
