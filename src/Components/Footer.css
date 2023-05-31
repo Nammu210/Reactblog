@@ -16,7 +16,13 @@ footer {
   margin: 0 10px;
 }
 
-.contact h3, .references h3 {
+.contact h3
+{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.references h3 {
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -24,6 +30,7 @@ footer {
 .references ul {
   list-style-type: none;
   padding: 0;
+  font-size: 15px;
 }
 
 .references li {
