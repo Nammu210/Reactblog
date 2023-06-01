@@ -1,4 +1,4 @@
-import Footer from './Components/Footer';
+
 import './App.css';
 import StaticPage from './Routes/StaticPage';
 
@@ -16,7 +16,7 @@ function App() {
       
    {/* <StaticPage/> */}
      
-   <Footer />
+ 
    
     </div>
   );

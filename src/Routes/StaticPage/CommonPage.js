@@ -3,6 +3,7 @@ import { Logo } from '../../Components'
 import "./commonPage.style.css"
 import { DateExt,GetStarted } from "../../Components";
 import {   Link, useLocation } from 'react-router-dom';
+import Footer from '../../Components/Footer/Footer';
 
 
 
@@ -60,7 +61,11 @@ const CommonPage = () => {
 
         </div> 
     </div>
+    <br/>
+
+    <Footer/>
     </div>
+    
   )
 }
 

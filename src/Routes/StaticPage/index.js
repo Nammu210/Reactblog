@@ -8,6 +8,7 @@ function StaticPage() {
     <Store>
       <CommonPage/>
       </Store>
+      
     </>
   )
 }

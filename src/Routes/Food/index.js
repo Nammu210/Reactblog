@@ -3,6 +3,7 @@ import { Logo, TopNavigation , LogoMobile} from '../../Components'
 import FoodArticleList from './FoodArticleList'
 import FoodTopPost from './FoodTopPosts'
 import Store from '../../Utility/ContextStore/contextAPI'
+import Footer from '../../Components/Footer/Footer'
 
 const Food = () => {
   return (
@@ -17,9 +18,12 @@ const Food = () => {
     <FoodArticleList/>
     <FoodTopPost/>
     </Store>
+   
     </div>
     </div>
     </div>
+    <br/>
+    <Footer/>
       
     </>
   )

@@ -8,11 +8,12 @@ import LatestStories from "./LatestStories";
 import Advertisement from "./Advertisement";
 import "../../App.css";
 import TopPots from "./TopPsts";
+import Footer from "../../Components/Footer/Footer";
+
+
 
 const Home = () => {
-  //  const [state] = useContext(AppData)
-  // console.log(state);
-
+  
   return (
     <>
     <div className='LMobile' ><LogoMobile/></div>
@@ -31,6 +32,8 @@ const Home = () => {
           </div>
         </div>
       </Store>
+      <br />
+     <Footer/>
     </>
   );
 };
